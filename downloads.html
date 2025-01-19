@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Index1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+
+
+     body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #111, #222);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.projects {
+    padding: 50px 20px;
+    border-radius: 4px;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.project-card {
+    background-color: #111;
+    padding: 90px 20px 90px 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+button{
+    background-color: #111;
+    padding: 20px 90px 20px 90px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    border-color: red;
+}
+
+h3{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+p{
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: red;
+}
+
+.project-card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #555;
+}
+     
+     
+</style>
+<body>
+    <header>
+        <h1>Downloads</h1>
+        <nav>
+            <ul>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#contact">Ad's</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome To downloads</h2>
+        <p>Discover Or Download Our Notes There</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Notes</h2>
+        <div class="projects-grid">
+            <a href="https://drive.usercontent.google.com/download?id=1TQwa6iLSPJyyvmimugZ4Nizc7qjc0psw&export=download&authuser=0">
+                <button>
+                    <h3>
+                        Java Begginer Notes
+                    </h3> 
+                    <p>
+                        The Java Begginer Notes Will Help 
+                    </p> <p>
+                        <strong>
+                            Creator = Unknown
+                        </strong>
+                    </p>
+                </button>
+            </a>
+           <a href="https://drive.usercontent.google.com/download?id=1bQJQaYajfj_nC0aXB6ShJK-PWogxvyrr&export=download&authuser=0">
+            <button class="but1">
+                <h3>
+                    Java Complete Referece
+                </h3> 
+                <p>
+                    This will Make You Master
+                </p>
+                <p>
+                    <Strong>Creator = Oracles</Strong>
+                </p>
+            </button>
+           </a>
+           <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/YouTube/The%20Ultimate%20Python%20Handbook.pdf">
+            <button>
+                <h3>
+                    Pyhthon Hand Book
+                </h3> 
+                <p>
+                    The Python Ultra Useful Guide
+                </p> 
+                <p>
+                    <strong>Creator = CodeWithHarry</strong>
+                </p>
+            </button>
+           </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Tanmay Pawar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
